@@ -1,0 +1,19 @@
+@mixin link($color) {
+    color: $color;
+    &:hover,
+    &:active,
+    &:focus {
+        color: darken($color, 15%);
+        @include transition(color, 1s);
+    };
+}
+
+@mixin transition($type, $duration: 1s) {
+    -webkit-transition: $type $duration;
+    transition: $type $duration;
+}
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}

@@ -1,0 +1,81 @@
+    .jumbotron {
+        @include background-opacity($light-green, 0.75);
+    }
+    
+    nav {
+        border-radius: 0px !important;
+        @include background-opacity($off-white, 0.75);
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-toggler {
+        @extend .ion-navicon-round;
+    }
+    
+    .custom_card {
+        @extend .card;
+        @extend .text-xs-center;
+        background-color: $basic-green;
+        color: $off-white;
+        p {
+            color: $off-white;
+        }
+        a {
+            color: $primary-blue;
+        }
+    }
+    
+    footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0.5rem;
+        padding-top: 1rem;
+        background-color: #efefef;
+        text-align: center;
+        clear: both;
+        p {
+            line-height: 2rem;
+            vertical-align: middle;
+        }
+        i {
+            padding: 1rem;
+            font-size: 1.5rem;
+            &:hover,
+            &:active,
+            &:focus {
+                color: $primary-green;
+            }
+        }
+        .g-plus {
+            @extend .ion-social-googleplus;
+        }
+        .facebook {
+            @extend .ion-social-facebook;
+        }
+        .twitter {
+            @extend .ion-social-twitter;
+        }
+        .github {
+            @extend .ion-social-github;
+        }
+    }
+    
+    @media screen and (max-width: 1000px) {
+        footer {
+            position: relative;
+        }
+    }
+    
+    @media screen and (max-width: 543) {
+        footer {
+            position: absolute;
+        }
+    }
+    
+    @media screen and (min-width: 1001) {
+        footer {
+            position: absolute;
+        }
+    }

@@ -1,0 +1,23 @@
+@import 'bower_components/bootstrap/scss/bootstrap.scss';
+@import 'bower_components/ionicons/scss/ionicons.scss';
+@import '_variables.scss';
+@import '_mixins.scss';
+@import '_typography.scss';
+@import '_components.scss';
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    margin: 0;
+}

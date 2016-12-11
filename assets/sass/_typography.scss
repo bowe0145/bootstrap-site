@@ -1,0 +1,27 @@
+* {
+    font-family: $font-sans-family;
+    color: $dark-grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $font-serif-family;
+}
+
+.brand {
+    font-family: $font-brand-family;
+    @include link($basic-green);
+    font-weight: $font-brand-weight;
+}
+
+a {
+    @include link($grey);
+}
+
+footer {
+    color: $black;
+    background-color: $white;
+}

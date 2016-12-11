@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" preserveAspectRatio="xMinYMid meet">
+        <circle class="circle-icon-right" fill="#22b573" cx="89.05" cy="59.37" r="29.68" />
+        <circle class="circle-icon-left" fill="#009245" cx="29.68" cy="59.37" r="29.68" />
+        <path class="circle-icon-green-overlay" fill="#0e8911" d="M89,29.68A29.68,29.68,0,0,1,59.37,59.37,29.68,29.68,0,1,0,89,29.68Z" />
+        <path class="circle-icon-green-overlay" fill="#0e8911" d="M29.68,29.68A29.68,29.68,0,1,0,59.37,59.37,29.68,29.68,0,0,1,29.68,29.68Z" />
+        <path class="circle-icon-green-overlay" fill="#0e8911" d="M89,29.68a29.68,29.68,0,0,0-59.37,0A29.68,29.68,0,0,1,59.37,59.37,29.68,29.68,0,0,1,89,29.68Z" /> </svg>
